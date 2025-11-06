@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 // Vérifier si l'utilisateur est déjà connecté
 if (isset($_SESSION['userId'])) {
     // Si l'utilisateur est connecté, rediriger selon son rôle
